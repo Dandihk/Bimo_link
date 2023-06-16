@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(img/svg_bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-image: linear-gradient(#0fbaff, #37c6ff); */
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 1;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+}
+.logo img {
+  max-width: 70%;
+  padding: 40px;
+}
+.logo p {
+  text-align: justify;
+  padding-bottom: 40px;
+  font-family: "Fredoka", sans-serif;
+  font-size: 18px;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+.link {
+  width: 80vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+.link a {
+  text-decoration: none;
+  font-family: "Fredoka", sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  border: solid 5px #ffa700;
+  border-radius: 10px;
+  background-color: rgb(223, 89, 0);
+  padding: 10px;
+  margin: 10px;
+  width: 40vw;
+  text-align: center;
+  transition: 0.5s;
+}
+.link .itch:hover {
+  color: rgb(255, 255, 255);
+  background-color: #940000;
+  border: solid 5px rgb(184, 36, 36);
+  transform: translateY(-5px);
+  box-shadow: 5px 6px rgba(0, 0, 0, 0.5);
+}
+.link .ps:hover {
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(90deg, #008744, #0057e7, #d62d20, #ffa700);
+  border: solid 5px #ffffff;
+  transform: translateY(-5px);
+  box-shadow: 5px 6px rgba(0, 0, 0, 0.5);
+}
+.link .ig:hover {
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+    90deg,
+    #4f5bd5,
+    #962fbf,
+    #d62976,
+    #fa7e1e,
+    #feda75
+  );
+  border: solid 5px #ffffff;
+  transform: translateY(-5px);
+  box-shadow: 5px 6px rgba(0, 0, 0, 0.5);
+}
+.link .linkedin:hover {
+  color: rgb(255, 255, 255);
+  background-color: #0076c5;
+  border: solid 5px rgb(27, 156, 216);
+  transform: translateY(-5px);
+  box-shadow: 5px 6px rgba(0, 0, 0, 0.5);
+}
+.footer {
+  width: 100vw;
+  margin: 50px 0 10px 0;
+}
+
+.footer h2 {
+  font-family: "Fredoka", sans-serif;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
